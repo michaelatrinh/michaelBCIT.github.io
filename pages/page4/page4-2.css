@@ -1,0 +1,92 @@
+.page4-2{
+    width: 375px;
+    height: 812px;   
+    background-color: #D7F0EC;
+    display: none;
+ 
+}
+
+.page4-2 .container4-2{
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.page4-2 .fact-text{
+position: relative;
+height: 1px;
+width: 212px;
+left:100px;
+top:130px;
+border-radius: nullpx;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+color: #ffffff;
+z-index: 2;
+opacity: 0;
+animation:mymove 3s;
+animation-delay: 0.66s;
+animation-fill-mode: forwards;
+}
+@keyframes mymove{
+    0% {
+        top: 210px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+    /*
+    from{top: 210px;}
+    to {bottom:0px;}
+    */
+}
+.page4-2 .big-smoke{
+position: relative;
+width: 100px;
+height: 230px;
+left: -30px;
+transform: rotate(-16deg);
+top: 20px;
+opacity: 0;
+animation:mymove 3s;
+animation-delay: 0.33s;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes mymove{
+    0% {
+        top: 200px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+    /*
+    from{top:200px;}
+    to {bottom:0px;}
+    */
+}
+.page4-2 .gas-photo{
+width:60%;
+height: auto;
+position: relative;
+top:150px;
+}
+
+.page4-2 .buttons-p4-2{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    position: relative;
+    padding: 15px;
+    bottom: -250px;
+}
+
+

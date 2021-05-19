@@ -1,0 +1,58 @@
+.page7-1{
+    width: 375px;
+    height: 812px;   
+    background-color: #D7F0EC;
+    display: none;
+}
+
+.page7-1 .container7-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.page7-1 .textbubble7-1{
+    position:fixed;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100px;
+
+    animation-name:movedown;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes movedown{
+    0% {top:-100px;}
+    100%{top: 110px;}
+}
+
+.page7-1 .tower{
+    display: flex;
+    position: relative;
+    /*width: 418px;
+    height: 665px;*/
+    left: 10px;
+    top: 610px;
+    animation:tower 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes tower{
+    from{bottom:0px;}
+    to {top: 150px;}
+}
+
+.page7-1 .buttons-p7-1{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 97px;
+    left: 4px;
+}

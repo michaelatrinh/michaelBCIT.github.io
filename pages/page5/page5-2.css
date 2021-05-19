@@ -1,0 +1,71 @@
+.page5-2{
+    width: 375px;
+    height: 812px;
+    background-color: #D7F0EC;
+    display: none;
+}
+
+.page5-2 .container5{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.page5-2 .thinking-image{
+    width: 150px;
+    left: auto;
+    right: auto;
+    top:0px;
+    margin-left: 35%
+}
+
+.page5-2 .SubHeaderPage5-2{
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.page5-2 .TextBubblePage5-2{
+position: relative;
+top: 20px;
+left: 40px;
+}
+
+.page5-2 .textt{
+position: relative;
+width: 177.45px;
+height: 120px;
+left: 110px;
+top: 150px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+
+text-align: center;
+color: #4E4841;
+z-index:2;
+}
+
+.page5-2 .landfill{
+    position: relative;
+    top: -100px;
+    margin: -10px;
+}
+
+.page5-2 .garbage-hill{
+    position: relative;
+    width: 380px;
+    margin-left: 5px;
+    bottom:-40px;
+}
+
+.page5-2 .ButtonPage5-2{
+    width: 183%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    position: relative;
+    margin-top: -65px;
+    left: -148px;
+}

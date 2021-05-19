@@ -1,0 +1,286 @@
+.page4{
+    width: 375px;
+    height: 1250px;    
+    background-color: #D7F0EC;
+    display: none;
+    overflow: hidden;
+}
+
+.page4 .container4{
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    margin-top:40px;
+}
+
+.page4 .subheader4 {
+    position: relative;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.page4 .section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+   
+
+    width: 365px;
+    height: 400px;
+}
+
+
+
+
+
+/*.page4 .heart{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    z-index: 1;
+    margin-top: -125px;
+}*/
+
+  #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+      animation: heartbeat 1s infinite;
+      margin:0 auto;
+      top:-100px;
+  }
+
+  #heart:before,
+  #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: #FF4C4C;
+      -moz-border-radius: 50px 50px 0 0;
+      border-radius: 50px 50px 0 0;
+      -webkit-transform: rotate(-45deg);
+         -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+           -o-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      -webkit-transform-origin: 0 100%;
+         -moz-transform-origin: 0 100%;
+          -ms-transform-origin: 0 100%;
+           -o-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+  }
+  #heart:after {
+      left: 0;
+      -webkit-transform: rotate(45deg);
+         -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+           -o-transform: rotate(45deg);
+              transform: rotate(45deg);
+      -webkit-transform-origin: 100% 100%;
+         -moz-transform-origin: 100% 100%;
+          -ms-transform-origin: 100% 100%;
+           -o-transform-origin: 100% 100%;
+              transform-origin :100% 100%;
+  }
+  
+  
+  
+  @keyframes heartbeat
+  {
+    0%
+    {
+      transform: scale( .75 );
+    }
+    20%
+    {
+      transform: scale( 1 );
+    }
+    40%
+    {
+      transform: scale( .75 );
+    }
+    60%
+    {
+      transform: scale( 1 );
+    }
+    80%
+    {
+      transform: scale( .75 );
+    }
+    100%
+    {
+      transform: scale( .75 );
+    }
+  }
+
+.page4 .broccoli{
+    z-index: 1;
+    position: relative;
+    right: 60px;
+    top: 30px;
+}
+
+.page4 .textBubblePage4-1{
+    margin-top: 10px;
+}
+
+.page4 .section2{
+    width: 365px;
+
+    position: relative;
+    right: 25px;
+    bottom: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*.page4 .social-icon{
+    width: 40%;
+    height: 50%;
+}*/
+
+.page4 .garbage-icon{
+    width: 40%;
+    height: 40%;
+
+    position: relative;
+    left: 100px;
+    margin-top:-60px;
+}
+
+.page4 .textBubblePage4-2{
+    margin-top: -10px;
+}
+
+.page4 .click{
+    margin-left: 65px;
+    top: 15px;
+    position: relative;
+
+    background-color: #FE9179;
+    height: 18px;
+    width: 110px;
+
+    padding: 10px;
+    padding-left: 25px;
+
+    border-radius: 10px;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker{
+      50%{
+      opacity:0
+  }
+
+}
+
+.page4 .section3{
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0px #7A5151;
+    animation-duration: 3s;
+    animation-name: slidein;
+    position: relative;
+    bottom: 950px;
+    right:-40px;
+    z-index: 2;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.page4 .gas{
+    position: relative;
+    top: 0px;
+    left: 20px;
+    width: 40%;
+}
+
+.page4 .buttons-p4{
+  width: 350px;
+  position: relative;
+  z-index: 1;
+
+
+
+}
+
+
+.smokeone {
+    animation: rotation 8s infinite linear;
+    position: relative;
+    width:600px;
+    bottom: 60px;
+    opacity: 30%;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .smoketwo {
+    animation: rotation 6s infinite linear;
+    position: relative;
+    z-index: 1;
+    width:300px;
+    bottom: 700px;
+    opacity: 30%;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /*.page4 .nextbutton-p4-2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 500px;
+    left: -480px;
+  }
+
+  .page4 .backbutton-p4-1 {
+    position:relative;
+    bottom: -500px;
+    right: 70px;
+    bottom: -1100px;
+    left: -70px;
+}*/
+
+.page4 .buttons-p4{
+  z-index: 5;
+  position: absolute;
+  top:1180px;
+  
+  width: 355px;
+  display: flex;
+  justify-content: space-between;
+  
+}

@@ -1,0 +1,44 @@
+
+html, body {
+    margin:0;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.page8-3{
+    background-color: #D7F0EC;
+    width: 375px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page8-3 .container8-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-top: 75px;*/
+    justify-content: space-evenly;
+    flex-grow: 4;
+}
+
+
+.page8-3 .buttons-p8-3{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+    top: 34px;
+    top: 50px;
+    padding: 25px;
+}
+
+
+
+
+/*.page8-3 .tip2:hover {
+   
+    width: 300px;
+    {transition-timing-function: ease-in-out;}
+}*/

@@ -1,0 +1,53 @@
+.page8-2{
+    background-color: #D7F0EC;
+    width: 375px;
+    height: 812px;
+    display: none;
+    flex-direction: column;
+}
+
+.page8-2 .container8-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 4;
+
+}
+/*
+.page8-2 .tip1-2{
+    animation: tip1anim;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+*/
+@keyframes expandAnim{
+    0% {
+        width: 125px;
+    }
+
+    100% {
+        width: 325px;
+    }
+}
+
+@keyframes reduceAnim{
+    0% {
+        width: 325px;
+        visibility: hidden;
+    }
+
+    100% {
+        width: 125px;
+        visibility: visible;
+    }
+}
+
+.page8-2 .buttons-p8-2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    padding: 25px;
+}

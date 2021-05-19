@@ -1,0 +1,107 @@
+.page3{
+    width: 375px;
+    height: 812px;    
+    background-color: #D7F0EC;
+    display: none;
+}
+
+.page3 .container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    height: 812px;
+    margin-top: -30px;
+}
+
+.page3 .topHalf{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 .headerpage3{
+    position: absolute;
+    top: 0px;
+}
+
+.page3 .middleHalf{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3 .textbubblepage3-1{
+    position: relative;
+    top: 144px;
+    right: 40px;
+    font-weight: bold;
+}
+
+.page3 .moneybagPage3{
+    width: 71px;
+    height: 71px;
+    position: relative;
+    top: 60px;
+    right: -110px;
+}
+
+.page3 .subheaderpage3-1{
+    position: relative;
+    top:99px;
+    right: -65px;
+    z-index: 1;
+}
+
+.page3 .textbubblepage3-2{
+     position: relative;
+    top: 89px;
+    right: 0px;
+    font-weight: bold;
+}
+.page3 .subheaderpage3-2{
+    position:relative;
+    top:78px;
+    z-index: 2;
+}
+.page3 .bottomHalf{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.page3 .click{
+    position: relative;
+    top: 190px;
+    z-index: 1;
+    color: white;
+    font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker{
+    50%{
+    opacity:0
+}
+}
+.page3 .plantspage3{
+    position: relative;
+    top: 30px;
+}
+
+.page3 .buttons-p3{
+    width: 195%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+}

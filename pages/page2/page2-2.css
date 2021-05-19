@@ -1,0 +1,125 @@
+html, body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2-2 {
+    width: 375px;
+    height: 812px;
+    background-color: #D7F0EC; 
+    display:none;
+    overflow: hidden;
+}
+
+.page2-2 .container{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.page2-2 .lid{
+    position: relative;
+    top: 20px;
+    padding-left: 100px;
+    transform: rotate(20deg);
+    z-index:2;
+
+    animation-name: moveside;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+@keyframes moveside{
+    from {top:100px;}
+    50%  {top: 50px !important;}
+    to   {top: 20px;}
+}
+
+.page2-2 .textbubble-1{
+    position: relative;
+    z-index: 1;
+    left: 10px;
+
+    animation-name: moveleft2;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes moveleft2{
+    from{left: -200px;}
+}
+
+.page2-2 .textbubble-2{
+    width: 500px;    
+    position: relative;
+    top: 10px;
+    left: 100px;
+    z-index: 2;
+
+    animation-name: moveright2;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes moveright2{
+    from{left: 300px;}
+}
+
+.page2-2 .banana{
+    position: relative;
+    z-index: 2;
+    transform: rotate(40deg);
+
+    width: 20%;
+
+    left: 240px;
+    top: -220px;
+
+    animation-name: banana;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes banana{
+    from{top: 0; opacity: 0; width: 5%;}
+}
+
+.page2-2 .apple{
+    position: relative;
+    z-index: 2;
+    transform: rotate(-40deg);
+
+    width: 15%;
+
+    top: -120px;
+    right: 120px;
+
+    animation-name: apple;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes apple{
+    from{top: 0; top:200; opacity: 0; width: 5%;}
+}
+
+.page2-2 .can{
+    position: relative;
+    padding-left: 85px;
+    margin-top: -100px;
+}
+
+.page2-2  .buttons-p2{
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+    left: -165px;
+    
+
+}
+

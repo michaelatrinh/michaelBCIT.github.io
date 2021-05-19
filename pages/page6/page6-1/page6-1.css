@@ -1,0 +1,127 @@
+.page6 {
+    width: 375px;
+    height: 812px;   
+    background-color: #D7F0EC;
+    display: none;
+    overflow: hidden;
+}
+
+.page6 .section-1{
+    top: -10px;
+}
+
+.page6 .container6-1{
+    justify-content: center;
+    align-items: center;
+}
+
+.page6 .withallthereasons{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.page6-1 .quesicon{
+    width: 100px;
+    transform: rotate(-15deg);
+    position: relative;
+    top: -100px;
+    left: 22px;
+}
+
+.page6 .familiesandind{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page6 .family {
+    width:80px;
+    position: relative;
+    top: -188px;
+    right: -200px;
+
+}
+
+
+.page6 .toofindout{
+    margin-top: -60px;
+    margin-left:20px;
+
+}
+
+.page6 .road{
+    position: relative;
+    margin-top: 50px;
+    top: -40px;
+    margin-bottom: 0;
+
+}
+
+.page6 .truck{
+    position: relative;
+    width: 150px;
+    z-index: 2;
+    right: -20px;
+    top:60px;
+
+    animation-name: goright;
+    animation-duration: 2s;
+    animation-delay:0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes goright{
+    0% {right: -20px;}
+    100%{right: -380px;}
+}
+
+.page6 .sign{
+    position: relative;
+    width: 155px;
+    z-index: 1;
+    right: -60px;
+    top: 15px;
+}
+
+
+.page6 .backnextbut {
+    width: 180%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    
+    position: relative;
+    top:-20px;
+    left: -120px;
+    top:-30px;
+    left: -150px;
+}
+
+.page6 .click {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    position:relative;
+    left:275px;
+    top: -40px;
+}
+
+.page6 .here {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    z-index: 2;
+    position:relative;
+    left:250px;
+    top: -35px;
+}
+
+.page6 .images {
+    margin-top: -170px;
+    position: relative;
+}

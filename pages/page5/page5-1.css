@@ -1,0 +1,212 @@
+
+.page5-1{
+    width: 375px;
+    height: 812px;
+    background-color: #D7F0EC;
+    display: none;
+}
+
+
+.page5-1 .thinking-image{
+    width: 150px;
+    left: auto;
+    right: auto;
+    margin-left: 35%
+}
+
+.page5-1 .subheaderpage5{
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.page5-1 .bubble-5-1{
+    margin-top: 10px;
+}
+
+.page5-1 .cloud{
+    width: 360px;
+    height: 126px;
+
+}
+.page5-1 .sun {
+    position: relative;
+    top: -70px;
+    left: 290px;
+    width: 45px;
+    height: 45px;
+    margin: -1.25em;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.3em #ffc400;
+    animation: spin 12s infinite linear;
+  }
+
+  .page5-1 .rays {
+    position: absolute;
+    top: -2em;
+    left: 23px;
+    display: block;
+    width: 0.375em;
+    height: 1.125em;
+    margin-left: -0.1875em;
+    background: #ffcc00;
+    border-radius: 0.25em;
+    box-shadow: 0 5.375em #ffcc00;
+  }
+  .page5-1 .rays:before,
+  .page5-1 .rays:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0.375em;
+    height: 1.125em;
+    transform: rotate(60deg);
+    transform-origin: 50% 3.25em;
+    background: #ffcc00;
+    border-radius: 0.25em;
+    box-shadow: 0 5.375em #ffcc00;
+  }
+  .page5-1 .rays:before {
+    transform: rotate(120deg);
+  }
+  @keyframes spin {
+    100% { transform: rotate(360deg); }
+  }
+
+.page5-1 .flying-bird{
+width: 223px;
+height: 191px;
+left: 63px;
+top: 334px;
+}
+
+.page5-1 .txt{
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    left: 135px;
+    top: 168px;
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker{
+    50%{
+    opacity:0
+}
+}
+
+.page5-1 .green-land{
+width: 375px;
+height: 181px;
+left: 8px;
+top: -200px;
+z-index: 1;
+margin-top: -37px;
+}
+
+.page5-1 .hill{
+    bottom: -10px;
+
+}
+
+.page5-1 .text{
+width: 139px;
+height: 49px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #755F46;
+
+z-index: 1;
+position: relative;
+top: -260px;
+left: 25px;
+}
+
+.page5-1 .buttons-p5{
+    width: 180%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    
+    position: relative;
+
+}
+
+.page5-1{
+    width: 375px;
+    height: 812px;
+    background-color: #D7F0EC;
+    display: none;
+}
+
+
+.page5-1 .container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.page5-1 .subheaderpage5{
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.page5-1 .bubble-5-1{
+    margin-top: 10px;
+}
+
+.page5-1 .flying-bird{
+
+width: 219px;
+height: 191px;
+left: 63px;
+top: 334px;
+}
+
+.page5-1 .green-land{
+width: 375px;
+height: 181px;
+left: 8px;
+top: 200px;
+}
+
+.page5-1 .hill{
+    top: -400px;
+}
+
+.page5-1 .text{
+width: 139px;
+height: 47px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #755F46;
+
+z-index: 1;
+position: relative;
+top: -290px;
+left: 25px;
+}
+
+.page5-1 .buttons-p5{
+    width: 180%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    
+    position: relative;
+    left: -150px;
+
+}
+

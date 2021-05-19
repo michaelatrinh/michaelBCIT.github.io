@@ -1,0 +1,122 @@
+.page3-2{
+    width: 375px;
+    height: 812px;    
+    background-color: #D7F0EC;
+    display: none;
+}
+
+.page3-2 .container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    height: 810px;
+}
+
+.page3-2 .topHalf{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3-2 .headerpage3--2{
+    position: absolute;
+    top: 0px;
+}
+
+.page3-2 .middleHalf{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3-2 .textbubblepage3-1--2{
+    position: relative;
+    top: 85px;
+    right: 40px;
+    font-weight: bold;
+}
+
+.page3-2 .moneybagPage3{
+    width: 71px;
+    height: 71px;
+    position: relative;
+    top: 0px;
+    right: -110px;
+}
+
+.page3-2 .subheaderpage3-1--2{
+    position: relative;
+    top: 40px;
+    right: -65px;
+    z-index: 2;
+}
+
+.page3-2 .subheaderpage3-2--2{
+    position:relative;
+    top:-1px;
+    z-index: 2;
+}
+
+.page3-2 .textbubblepage3-2--2{
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+
+.page3-2 .bottomHalf{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3-2 .plantspage3{
+    position: relative;
+    top: 10px;
+    
+}
+
+.page3-2 .plantspage3-2{
+    position: relative;
+    top: -4px;
+    opacity: 66%;
+    z-index: 1;
+}
+
+.page3-2 .transparentText{
+    position: absolute;
+    top: 548px;
+}
+
+.page3-2 .buttons-p3{
+    width: 195%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 12px;
+}
+/*
+.page3-2 .coinsPage3-2{
+    position: absolute;
+    width: 108px;
+    height: 84px;
+    top: 425px;
+    right: 510px;
+    z-index: 1;
+}
+
+.page3-2 .moneyPage3-2{
+    position: absolute;
+    z-index: 1;
+    width: 85px;
+    top: 415px;
+    left: 525px;
+    transform: rotate(100deg);
+}
+*/

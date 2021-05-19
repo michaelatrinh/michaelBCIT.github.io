@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../practice7/comps"
+		},
+		{
+			"path": "../../../practice6/node_modules"
+		}
+	],
+	"settings": {}
+}
